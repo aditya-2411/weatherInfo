@@ -15,6 +15,8 @@ Method: GET
 Parameters:
 city: The name of the city for which weather data is requested.
 
+run : git clone https://github.com/aditya-2411/weatherInfo.git
+
 NOTE - If the data of a particular city is not found, not found exception is thrown. Please try with european cities.
 2nd endpoint will return internal server error for now as 3rd party weather api doesn't provide hourly data in basic plan. Service logic can be found in code.
 Also sharing the application.properties file, so you don't have to set env var.
