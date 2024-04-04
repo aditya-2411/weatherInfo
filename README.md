@@ -3,7 +3,7 @@ Weather API Service
 This project provides RESTful API endpoints to fetch weather data for a particular city. It leverages third-party weather APIs to retrieve weather forecasts.
 
 Endpoints
-1. signup for new user
+1. signup for new user  
 URL: /weather/signup
 Method: POST
 Body (required) : name, email, password, contactNumber
