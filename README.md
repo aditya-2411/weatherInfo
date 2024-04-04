@@ -4,27 +4,27 @@ This project provides RESTful API endpoints to fetch weather data for a particul
 
 Endpoints
 1. signup for new user  
-URL: /weather/signup
-Method: POST
+URL: /weather/signup  
+Method: POST  
 Body (required) : name, email, password, contactNumber
 
-2. login for users
-URL: /weather/login
-Method: POST
-Body(required) : email,password
+2. login for users  
+URL: /weather/login  
+Method: POST  
+Body(required) : email,password  
 Response: JWT Token
 
-3. Get Weather Forecast Summary
-URL: /weather/summary
-Method: GET
-Authentication : Bearer (provide jwt token obtained from login endpoint to access this)
+3. Get Weather Forecast Summary  
+URL: /weather/summary  
+Method: GET  
+Authentication : Bearer (provide jwt token obtained from login endpoint to access this)  
 Parameters(required)
 city: The name of the city for which weather data is requested.
 
-4. Get Weather Forecast hourly (will require premium account to access hourly data)
-URL: /weather/hourly
-Method: GET
-Authentication : Bearer (provide jwt token obtained from login endpoint to access this)
+4. Get Weather Forecast hourly (will require premium account to access hourly data)  
+URL: /weather/hourly  
+Method: GET  
+Authentication : Bearer (provide jwt token obtained from login endpoint to access this)  
 Parameters:
 city: The name of the city for which weather data is requested.
 
